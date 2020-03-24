@@ -1,0 +1,35 @@
+<?php
+	
+		$ask1 =$_POST['ask1'];
+		$ask2 =$_POST['ask2'];
+		$ask3 =$_POST['ask3'];
+		$ask4 =$_POST['ask4'];
+		$ask5 =$_POST['ask5'];
+		$ask6 =$_POST['ask6'];
+		$ask7 =$_POST['ask7'];
+		$ask8 =$_POST['ask8'];
+		$ask9 =$_POST['ask9'];
+		$ask10 =$_POST['ask10'];
+		$ask11 =$_POST['ask11'];
+		$ask12 =$_POST['ask12'];
+		
+		
+		if ($ask1=="OUI"){
+			if($ask2=="toux" || $ask2=="mauxgorge"){
+				if($ask3=="OUI"){
+					if($ask5=="OUI"){
+						if($ask12=="OUI" || $ask12=="jenesais" ){
+							echo '<p id="pvalider">';
+							echo "vous representez les symptome du COVID-19 <br/>";
+							echo "Restez chez vous <br/>";
+							echo "Portez une masque si vous sortez <br/>";
+							echo "Si votre etat s'agrave appeler ce numero:<br/>";
+							echo "<p><img src='img/1.png'/>116</p>";
+							echo "</p>";
+						}
+					}
+				}
+			}
+		}
+		
+?>
